@@ -1,0 +1,159 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+svg{
+    width: 500px;
+}
+
+#pluie1{
+    animation: pluie1 ease 2s infinite;
+    transform-box: fill-box;
+
+}
+
+@keyframes pluie1{
+    from{
+        transform: translateY(-20%);
+        opacity: ;
+
+    }to{
+        transform: translateY(50%);
+
+    }
+}
+
+#pluie2{
+    animation: pluie2 ease 2s infinite;
+    transform-box: fill-box;
+
+}
+
+@keyframes pluie2{
+    from{
+        transform: translateY(-20%);
+
+    }to{
+        transform: translateY(50%);
+
+    }
+}
+
+#pluie3{
+    animation: pluie3 ease 1s infinite;
+    transform-box: fill-box;
+
+}
+
+@keyframes pluie3{
+    from{
+        transform: translateY(-20%);
+
+    }to{
+        transform: translateY(50%);
+
+    }
+}
+
+
+#parapluie{
+    animation: parapluie 2s infinite;
+    transform-box: fill-box;
+    transform-origin: 50px 50px;
+    transform-origin: top right;
+}
+
+@keyframes parapluie{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: translateY(-90px);
+    }
+}
+
+#bras{
+    animation: bras 2s infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform-origin: top right;
+}
+
+@keyframes bras{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(30deg);
+    }
+}
+#arbuste{
+    animation: arbuste 1s infinite alternate ease;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+@keyframes arbuste{
+    from{
+        transform: rotateZ(0deg);
+
+    }to{
+        transform: rotateZ(10deg);
+
+    }
+
+}
+
+
+#plante1{
+    animation: plante1 1s infinite alternate ease;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+@keyframes plante1{
+    from{
+        transform: rotateZ(0deg);
+
+    }to{
+        transform: rotateZ(8deg);
+
+    }
+
+}
+
+
+#plante2{
+    animation: plante2 1s infinite alternate ease;
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+@keyframes plante2{
+    from{
+        transform: rotateZ(0deg) ;
+    }to{
+        transform: rotateZ(8deg);
+
+    }
+}
+
+#cheveux{
+    animation: cheveux 0.5s infinite alternate ease;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes cheveux{
+    from{
+        transform: rotateZ(0deg);
+    }to{
+        transform: rotateZ(8deg);
+
+    }
+}
